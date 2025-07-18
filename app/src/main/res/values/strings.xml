@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name">WAFFIQ AZIZ</string>
+  <string name="action_settings">Settings</string>
+
+  <string name="label_title">Title</string>
+  <string name="label_description">Description</string>
+
+  <!-- Strings used for fragments for navigation -->
+  <string name="first_fragment_label">WAFFIQ AZIZ</string>
+  <string name="second_fragment_label">WAFFIQ AZIZ</string>
+</resources>

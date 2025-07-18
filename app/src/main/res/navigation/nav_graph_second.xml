@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/nav_graph2"
+  app:startDestination="@id/First2Fragment">
+
+  <fragment
+    android:id="@+id/First2Fragment"
+    android:name="com.waffiq.mvvmexample.presentation.ui.DetailFragment"
+    android:label="@string/second_fragment_label"
+    tools:layout="@layout/fragment_second">
+
+    <argument
+      android:name="data"
+      app:argType="com.waffiq.mvvmexample.domain.model.ResponseItemDomain"
+      app:nullable="false" />
+  </fragment>
+</navigation>

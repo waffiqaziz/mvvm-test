@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!-- This item layout for search result for person, movies, and tv -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_result"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:padding="10dp">
+
+    <!-- Title -->
+    <TextView
+      android:id="@+id/tv_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:ellipsize="end"
+      android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+      android:maxLines="2"
+      app:layout_constrainedWidth="true"
+      tools:text="Avenger Endgame" />
+
+</LinearLayout>
